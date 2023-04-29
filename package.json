@@ -27,6 +27,7 @@
     "@babel/preset-env": "^7.21.4",
     "babel-loader": "^9.1.2",
     "eslint": "^8.39.0",
-    "eslint-config-airbnb-base": "^15.0.0"
+    "eslint-config-airbnb-base": "^15.0.0",
+    "favicons-webpack-plugin": "^6.0.0"
   }
 }
