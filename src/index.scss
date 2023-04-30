@@ -28,13 +28,81 @@ html {
 }
 
 .keyboard-root {
-  width: 70.4rem;
+  // min-width: 70.4rem;
   background: #888888;
   border: 3px solid #222222;
-  padding: 0.5rem;
+  padding: 0.5rem 0 0 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .row {
   height: 4rem;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.keyboard-key {
+  float: left;
+  min-width: 40px;
+  height: 40px;
+  margin-right: 0.5rem;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  background: #444444;
+  border-radius: 3px;
+  cursor: pointer;
+  user-select: none;
+  transition: border-radius 0.3s, background-color 0.3s;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.keyboard-key:hover {
+  background-color: rgb(246, 149, 149);
+}
+
+.CapsLock,
+.Ctrl,
+.Alt,
+.Win,
+.LeftShift,
+.RightShift,
+.Enter,
+.Backspace,
+.Tab {
+  background-color: #222222;
+}
+
+.CapsLock,
+.LeftShift {
+  width: 10rem;
+}
+
+.Tab {
+  width: 5rem;
+}
+
+.Enter,
+.RightShift {
+  width: 8.6rem;
+}
+
+.Backspace {
+  width: 10.1rem;
+}
+
+.Del{
+  width: 4.6rem;
+}
+
+.Space{
+  width: 32.5rem;
+}
+
+.▲,
+.▼,
+.◄,
+.Del,
+.► {
+  background-color: #222222;
 }
