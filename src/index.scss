@@ -28,7 +28,6 @@ html {
 }
 
 .keyboard-root {
-  // min-width: 70.4rem;
   background: #888888;
   border: 3px solid #222222;
   padding: 0.5rem 0 0 0.5rem;
@@ -61,12 +60,15 @@ html {
   background-color: rgb(246, 149, 149);
 }
 
+.active {
+  background-color: rgb(246, 149, 149);
+}
+
 .CapsLock,
 .Ctrl,
 .Alt,
 .Win,
-.LeftShift,
-.RightShift,
+.Shift,
 .Enter,
 .Backspace,
 .Tab {
@@ -74,17 +76,16 @@ html {
 }
 
 .CapsLock,
-.LeftShift {
-  width: 10rem;
+.Shift {
+  width: 9rem;
 }
 
 .Tab {
   width: 5rem;
 }
 
-.Enter,
-.RightShift {
-  width: 8.6rem;
+.Enter {
+  width: 9rem;
 }
 
 .Backspace {
